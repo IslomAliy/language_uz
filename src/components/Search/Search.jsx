@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+import { CopyIcon } from "../../assets/icons/icons";
 import { words } from "../../data";
 import cls from "./styles.module.scss";
 
@@ -59,7 +60,7 @@ const Search = () => {
             <div className={cls.resultCard}>
               <span>{elm}</span>
               <img
-                src="/src/assets/copy-svgrepo-com.svg"
+                src="/images/copy-svgrepo-com.svg"
                 alt="copy"
                 width="20px"
                 height="20px"
