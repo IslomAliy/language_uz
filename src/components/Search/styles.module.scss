@@ -1,0 +1,51 @@
+.search {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  margin: 200px auto;
+  .searchInput {
+    overflow: hidden;
+    font-size: 18px;
+    width: 100%;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+
+  .results {
+    margin-top: 20px;
+    height: 50vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    .resultCardWrapper {
+      padding: 0;
+      margin: 0;
+
+      .resultCard {
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        align-items: center;
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        width: 100%;
+        list-style: none;
+        text-align: left;
+        padding: 8px;
+
+        span {
+          background-color: #fff;
+        }
+
+        .copyIcon {
+          background-color: #fff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
